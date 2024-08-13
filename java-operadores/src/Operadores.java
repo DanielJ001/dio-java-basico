@@ -22,7 +22,6 @@ public class Operadores {
 
         //Utilizar Debug nesta parte
         String concatenacao ="?";
-
         concatenacao = 1+1+1+"1";
             System.out.println(concatenacao); // o programa entendeu que era um operador de atribuição soma nos três primeiros números, mas quando chegou na String ele concatenou
         concatenacao = 1+"1"+1+1;
@@ -33,5 +32,12 @@ public class Operadores {
             System.out.println(concatenacao); // detectou que era uma String desde o começo, portanto concatenou todos os resultados
         concatenacao = "1"+(1+1+1);
             System.out.println(concatenacao); // começou como uma String, mas ao ter uma expressão em evidência o programa a resolveu e depois concatenou com a String
+
+        //operadores unários
+        int numero = 5;
+        numero = - numero; // transformar o numero em negativo
+        System.out.println(numero);
+        numero = numero * -1; // multiplicar por -1 para o número ficar positivo novamente
+        System.out.println(numero);
     }
 }
