@@ -39,5 +39,20 @@ public class Operadores {
         System.out.println(numero);
         numero = numero * -1; // multiplicar por -1 para o número ficar positivo novamente
         System.out.println(numero);
+
+        //incrementação e decrementação
+        int incrementacao = 5;
+        incrementacao++; // é a mesma coisa que numero = numero +1;
+        System.out.println(incrementacao++); // o número não foi incrementado pois o ++ está depois da variável, então a impressão vai pegar o valor original. Ele só realizou a operação depois da impressão
+        System.out.println(incrementacao);
+        System.out.println(++incrementacao); // se colocar ++ antes da variável a impressão vai pegar o novo valor
+        System.out.println(--incrementacao); // decrementação
+
+        //negação
+        boolean variavel = true;
+        System.out.println(!variavel);
+        System.out.println(variavel); // ela continua sendo true porque o valor não foi atribuido novamente
+        variavel = !variavel; // é melhor inverter um valor do tipo booleano desta maneira
+        System.out.println(variavel);
     }
 }
