@@ -84,5 +84,24 @@ public class Operadores {
         simNao = relacional1 > relacional2;
             System.out.println("relacional1 é maior que relacional2? " + simNao);
 
+
+        //OPERADOR LÓGICO
+        boolean condicao1 = true;
+        boolean condicao2 = false;
+        if(condicao1 && condicao2){
+            System.out.println("As duas condições são verdadeiras");
+        }
+        if(condicao1 || condicao2){
+            System.out.println("Uma das condições é verdadeira");
+        }
+            System.out.println("Fim");
+
+        boolean condicao3 = true;
+        boolean condicao4 = false;
+        if(condicao3 && ( 7 > 4 )){
+            System.out.println("As duas condições são verdadeiras");
+        }
+            System.out.println("Fim");
+
     }
 }
