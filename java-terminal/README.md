@@ -6,4 +6,4 @@
         🔷Nem sempre o programa Java é executado pela IDE;
         🔷Array de argumentos;
         🔷Rodar uma classe pelo PowerShell;
-        🔷Utilizar o Scanner
+        🔷Utilizar o Scanner;
