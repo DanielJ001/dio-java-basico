@@ -7,5 +7,10 @@ public class ResultadoEscolar {
 
         else
             System.out.println("Reprovado");
+
+        // Utlizando operador ternário
+
+        String resultado = nota >= 7 ? "Aprovado" : "Reprovado";
+            System.out.println(resultado);
     }
 }
